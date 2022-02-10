@@ -1,7 +1,6 @@
 import smtplib 
 
 try:
-        
     msgFrom = str(input())
     print("tentando conexao")
     smtpObj = smtplib.SMTP('smtp.gmail.com')

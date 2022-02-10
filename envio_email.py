@@ -2,14 +2,14 @@ import smtplib
 
 try:
         
-    msgFrom = "sofiapitta3101@gmail.com"
+    msgFrom = str(input())
     print("tentando conexao")
     smtpObj = smtplib.SMTP('smtp.gmail.com')
     print("conectado")
     smtpObj.ehlo()
     smtpObj.starttls()
     emailLogin = 'amutti.dev@gmail.com'
-    senhaLogin = 'asmtti989'
+    senhaLogin = ''
     print("tentando login")
     smtpObj.login(emailLogin, senhaLogin)
     print("usuario logado")

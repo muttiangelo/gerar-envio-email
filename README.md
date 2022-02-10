@@ -1,2 +1,2 @@
 # gerar-envio-email
-projeto de envio de e-mail em python
+projeto de envio de e-mail automatizado em python 

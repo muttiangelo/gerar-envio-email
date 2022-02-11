@@ -3,7 +3,6 @@ import smtplib
 import json
 
 class envio_email():
-
     def __init__(self):
         f = open('parametros.json', 'r')
         dados = json.load(f)
